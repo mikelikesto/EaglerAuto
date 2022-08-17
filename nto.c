@@ -5,7 +5,7 @@
 int main () {
    char command[150];
 
-   strcpy( command, "tmux new -s other && tmux attach -t other" );
+   strcpy( command, "tmux new -s other" );
    system(command);
 
    return(0);
